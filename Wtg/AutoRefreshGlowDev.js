@@ -2,11 +2,13 @@
 // @name         AutoRefreshGlowDev
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  Refresh GLOW dev page if source is changed
+// @author       Felix.Fei
 // @match        */Glow/dev/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=undefined.localhost
 // @grant        none
+// @updateURL    https://github.com/ShimizuShiori/TamperMonkeyScripts/edit/main/Wtg/AutoRefreshGlowDev.user.js
+// @downloadURL  https://github.com/ShimizuShiori/TamperMonkeyScripts/edit/main/Wtg/AutoRefreshGlowDev.user.js
 // ==/UserScript==
 
 (function () {
