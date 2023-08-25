@@ -1,0 +1,41 @@
+// ==UserScript==
+// @name         AutoRefreshGlowDev
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        */Glow/dev/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=undefined.localhost
+// @grant        none
+// ==/UserScript==
+
+(function () {
+  "use strict";
+
+  function getWatchedUri() {
+    const url = window.location.href;
+    if (url.endsWith("Glow/dev/logs")) return "/Glow/odata/Logs/Logs";
+    return url;
+  }
+
+  async function getContentLength() {
+    let res = await fetch(getWatchedUri());
+    return (await res.text()).length;
+  }
+
+  document.querySelector("h1").innerText += " @ " + new Date();
+
+  getContentLength().then((currentContentLength) => {
+    setInterval(() => {
+      getContentLength()
+        .then((len) => {
+          return len === currentContentLength;
+        })
+        .then((b) => {
+          if (!b) {
+            window.location.href = window.location.href;
+          }
+        });
+    }, 10000);
+  });
+})();
