@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Test Results Enhancement
-// @namespace    https://devops.wisetechglobal.com/wtg/InternalTools/_git/WtgScripts?path=%2Fsrc%2FTamperMonkeyScripts%2FTestResultsEnhancement.user.js&version=GBmaster
+// @namespace    https://github.com/ShimizuShiori/TamperMonkeyScripts/blob/main/Wtg/TestResultsEnhancement.user.js
 // @version      1.2
 // @description  Add some external operations to Test Results Page
 // @author       Felix Fei
 // @match        http://crikey.wtg.zone/TestResults/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=wtg.zone
-// @updateURL    https://devops.wisetechglobal.com/wtg/6b48d534-abdb-4757-9030-2a7e7ad8af5d/_apis/git/repositories/37047baf-b1d4-47e6-92ff-1d8f056ebb53/items?path=%2Fsrc%2FTamperMonkeyScripts%2FTestResultsEnhancement.user.js&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true
-// @downloadURL  https://devops.wisetechglobal.com/wtg/6b48d534-abdb-4757-9030-2a7e7ad8af5d/_apis/git/repositories/37047baf-b1d4-47e6-92ff-1d8f056ebb53/items?path=%2Fsrc%2FTamperMonkeyScripts%2FTestResultsEnhancement.user.js&versionDescriptor%5BversionOptions%5D=0&versionDescriptor%5BversionType%5D=0&versionDescriptor%5Bversion%5D=master&resolveLfs=true&%24format=octetStream&api-version=5.0&download=true
+// @updateURL    https://github.com/ShimizuShiori/TamperMonkeyScripts/blob/main/Wtg/TestResultsEnhancement.user.js
+// @downloadURL  https://github.com/ShimizuShiori/TamperMonkeyScripts/blob/main/Wtg/TestResultsEnhancement.user.js
 // @grant        none
 // ==/UserScript==
 
