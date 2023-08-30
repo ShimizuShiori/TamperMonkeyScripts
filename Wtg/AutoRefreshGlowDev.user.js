@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoRefreshGlowDev
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Refresh GLOW dev page if source is changed
 // @author       Felix.Fei
 // @match        */Glow/dev/*
@@ -25,7 +25,7 @@
     return (await res.text()).length;
   }
 
-  document.querySelector("h1").innerText += " @ " + new Date();
+  document.title += " @ " + new Date();
 
   getContentLength().then((currentContentLength) => {
     setInterval(() => {
