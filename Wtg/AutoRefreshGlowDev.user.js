@@ -7,8 +7,8 @@
 // @match        */Glow/dev/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=undefined.localhost
 // @grant        none
-// @updateURL    https://github.com/ShimizuShiori/TamperMonkeyScripts/edit/main/Wtg/AutoRefreshGlowDev.user.js
-// @downloadURL  https://github.com/ShimizuShiori/TamperMonkeyScripts/edit/main/Wtg/AutoRefreshGlowDev.user.js
+// @updateURL    https://github.com/ShimizuShiori/TamperMonkeyScripts/raw/main/Wtg/AutoRefreshGlowDev.user.js
+// @downloadURL  https://github.com/ShimizuShiori/TamperMonkeyScripts/raw/main/Wtg/AutoRefreshGlowDev.user.js
 // ==/UserScript==
 
 (function () {
